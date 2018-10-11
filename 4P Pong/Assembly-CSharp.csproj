@@ -64,6 +64,7 @@
     <Compile Include="Assets\Ball.cs" />
     <Compile Include="Assets\ballMovement.cs" />
     <Compile Include="Assets\FunctionManager.cs" />
+    <Compile Include="Assets\Object_SyncPosition.cs" />
     <Compile Include="Assets\player.cs" />
     <Compile Include="Assets\UI_Manager.cs" />
     <Reference Include="UnityEditor.StandardEvents">
