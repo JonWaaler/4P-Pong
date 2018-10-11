@@ -24,7 +24,6 @@ GameObject:
   - component: {fileID: 65558934276007764}
   - component: {fileID: 114397944543077886}
   - component: {fileID: 114818930021621858}
-  - component: {fileID: 114829306059462424}
   - component: {fileID: 114881924608595302}
   - component: {fileID: 54356646582288422}
   m_Layer: 0
@@ -161,27 +160,6 @@ MonoBehaviour:
     i15: 194
   m_ServerOnly: 0
   m_LocalPlayerAuthority: 1
---- !u!114 &114829306059462424
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1847318692159008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_TransformSyncMode: 1
-  m_SendInterval: 0.033333335
-  m_SyncRotationAxis: 0
-  m_RotationSyncCompression: 0
-  m_SyncSpin: 0
-  m_MovementTheshold: 0.001
-  m_VelocityThreshold: 0.0001
-  m_SnapThreshold: 5
-  m_InterpolateRotation: 1
-  m_InterpolateMovement: 1
 --- !u!114 &114881924608595302
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -193,4 +171,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 112f48512aafe39419965f3f834a3db1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lerpRate: 5
+  lerpRate: 10
