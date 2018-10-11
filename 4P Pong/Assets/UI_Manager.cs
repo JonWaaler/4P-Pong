@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class UI_Manager : MonoBehaviour {
-
+    public GameObject panel;
+    public GameObject ball;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +16,8 @@ public class UI_Manager : MonoBehaviour {
 	}
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        panel.SetActive(false);
+        ball.transform.position = Vector3.zero;
     }
 }

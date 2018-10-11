@@ -6,14 +6,22 @@ using UnityEngine.Networking;
 public class player : NetworkBehaviour {
 
     public float Speed = 10F;
-
+    public GameObject ballPrefab;
 	// Use this for initialization
 	void Start () {
 		
 	}
-	
-	// Update is called once per frame
-	void FixedUpdate ()
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject ball = Instantiate<GameObject>(ballPrefab);
+            NetworkServer.Spawn(ball);
+        }
+    }
+    // Update is called once per frame
+    void FixedUpdate ()
     {
         if (isLocalPlayer)
         {

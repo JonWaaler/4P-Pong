@@ -127,6 +127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 850
+  ballPrefab: {fileID: 1788245045002122, guid: 443f61ca4b88ae94abf3337cfee79505, type: 2}
 --- !u!114 &114818930021621858
 MonoBehaviour:
   m_ObjectHideFlags: 1
